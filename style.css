@@ -1,0 +1,195 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-background.png) repeat center;
+	font-family: 'Libre Baskerville' ,Arial, Tahoma;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	letter-spacing: 0.1rem;
+	text-align: center;
+}
+
+p{
+	padding: 1.2rem;
+}
+
+.image{
+	background: url(https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg) no-repeat 70% center/cover;
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+.text{
+	background: rgb(0, 0, 0,.6);
+	color: hsla(0,0%,100%,.9);
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1{
+	color: #d2ba87;
+	font-family: 'Great vibes' ,Arial, Tahoma;
+ 	padding: 3rem 0;
+	font-size: 5rem;
+}
+
+@media (min-width: 768px) {
+
+	.image {
+	  position: relative;
+	  background: url('https://codeberry-curriculum-assets.s3.eu-central-1.amazonaws.com/wsc/wedding-landing-cover.jpg') no-repeat center/cover;
+	}  
+}
+
+  @media (min-width: 768px) {
+  
+	.text {
+	  padding: 1.25rem;
+	  border-radius: 5px;
+	  width: 60%;
+	  text-align: center;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	
+	}
+  
+	.text h1 {
+	  font-size: 6rem;
+	}
+}
+
+.inf{
+	text-align: center;
+	padding: 1rem 1.5rem;
+}
+
+.loc{
+	text-align: center;
+	font-family: 'Great vibes' ,Arial, Tahoma;
+	padding: 2rem 0;
+	font-size: 2.5rem;
+}
+
+.cer{
+	padding: 1rem 0;
+	font-weight: bold;	
+	font-size: 1.2rem;	
+}
+
+img{
+	width: 150px;
+	height: 150px;
+	padding: 1rem 0;
+}
+
+@media (min-width: 768px) {
+
+	.col {
+	  display: inline-block;
+	  width: 30%;
+	  padding: 1.5rem;
+	  margin: .5rem;
+	}
+  
+	.col::after {
+	  display: none;
+	}
+}
+
+.prg2{
+	background: rgba(0, 0, 0, 0.6);
+	color: #d2ba87;
+	padding: 1rem 1.5rem;
+}
+
+.gold{
+	font-family: 'Great vibes' ,Arial, Tahoma;
+	font-size: 3rem;
+	padding: 2rem;
+}
+
+.italic{
+	font-style: italic;
+	padding: 0 0 2.5rem 0;
+}
+
+li{
+	text-align: left;
+}
+
+@media (min-width: 768px) {
+
+	.list {
+	  width: 30vw;
+	  margin: 0 auto;
+	}
+}
+
+a{
+	text-decoration: none;
+	color: rgba(125, 20, 20, 0.8);
+}
+
+a:hover{
+	color: rgb(162, 116, 116);
+	transition: color .15s ease-in-out;
+}
+
+.left{
+	text-align: left;
+}
+
+.cim{
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 2rem 0;
+}
+
+.bold{
+	font-weight: bold;
+	padding: 1rem 0 ;
+}
+
+.box{
+	background: rgb(0, 0, 0, .6);
+	color: #d2ba87;
+	padding: 1rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+
+	.prg {
+	  display: inline-block;
+	  width: 30%;
+	  vertical-align: top;
+	  padding: 1.5rem;
+	  margin: .5rem;
+	}
+  
+	.prg::after {
+	  display: none;
+	}
+  
+	.prg h3 {
+	  text-align: left;
+	}
+}
+
+footer{
+	background: #606060;
+	color: hsla(0,0%,100%,.9);
+	padding: 1rem;
+	text-align: center;
+}
+
